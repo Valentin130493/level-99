@@ -1,0 +1,37 @@
+.user_block {
+  display: flex;
+  border-radius: 8px;
+  border: 2px black solid;
+  padding: 10px;
+  margin-top: 10px;
+  min-width: 200px;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    text-wrap: normal;
+  }
+
+  .remove {
+    background: #c41b1b;
+    margin-left: 5px;
+  }
+
+  button {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    transition: all 0.3ms ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      transform: scale(1.05);
+    }
+  }
+}
